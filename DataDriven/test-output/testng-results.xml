@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="1" failed="6" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Capturing Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\loginAsBankManager.jpg">Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\loginAsBankManager.jpg"><img src ="C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\loginAsBankManager.jpg" height= 400 width = 700></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[Capturing Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg">Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg"><img src ="C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg" height= 400 width = 700></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[Capturing Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg">Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg"><img src ="C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg" height= 400 width = 700></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[Capturing Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg">Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg"><img src ="C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg" height= 400 width = 700></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[Capturing Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg">Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg"><img src ="C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg" height= 400 width = 700></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[Capturing Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\openaccount.jpg">Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\openaccount.jpg"><img src ="C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\openaccount.jpg" height= 400 width = 700></img></a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-10-24T16:37:01 IST" name="Data Driven Basics" finished-at="2021-10-24T16:37:47 IST" duration-ms="45663">
+    <groups>
+    </groups>
+    <test started-at="2021-10-24T16:37:01 IST" name="Bank Manager Login Test" finished-at="2021-10-24T16:37:09 IST" duration-ms="7582">
+      <class name="com.sar.testcases.BankManagerLoginTest">
+        <test-method signature="loginAsBankManager()[pri:0, instance:com.sar.testcases.BankManagerLoginTest@66238be2]" started-at="2021-10-24T16:37:01 IST" name="loginAsBankManager" finished-at="2021-10-24T16:37:09 IST" duration-ms="7178" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[log in Test is not successful]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: log in Test is not successful
+at org.testng.Assert.fail(Assert.java:99)
+at com.sar.testcases.BankManagerLoginTest.loginAsBankManager(BankManagerLoginTest.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Capturing Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\loginAsBankManager.jpg">Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\loginAsBankManager.jpg"><img src ="C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\loginAsBankManager.jpg" height= 400 width = 700></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+      </class> <!-- com.sar.testcases.BankManagerLoginTest -->
+    </test> <!-- Bank Manager Login Test -->
+    <test started-at="2021-10-24T16:37:09 IST" name="Add Customer Test" finished-at="2021-10-24T16:37:31 IST" duration-ms="22036">
+      <class name="com.sar.testcases.AddCustomerTest">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sar.testcases.AddCustomerTest@77b21474]" started-at="2021-10-24T16:37:09 IST" name="addCustomer" data-provider="dp" finished-at="2021-10-24T16:37:14 IST" duration-ms="5421" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Digvijay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[asoyr]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[customer not added successfully]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: customer not added successfully
+at org.testng.Assert.fail(Assert.java:99)
+at com.sar.testcases.AddCustomerTest.addCustomer(AddCustomerTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Capturing Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg">Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg"><img src ="C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg" height= 400 width = 700></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sar.testcases.AddCustomerTest@77b21474]" started-at="2021-10-24T16:37:15 IST" name="addCustomer" data-provider="dp" finished-at="2021-10-24T16:37:20 IST" duration-ms="5266" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yashasvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jaiswal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[asud]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[customer not added successfully]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: customer not added successfully
+at org.testng.Assert.fail(Assert.java:99)
+at com.sar.testcases.AddCustomerTest.addCustomer(AddCustomerTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Capturing Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg">Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg"><img src ="C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg" height= 400 width = 700></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sar.testcases.AddCustomerTest@77b21474]" started-at="2021-10-24T16:37:20 IST" name="addCustomer" data-provider="dp" finished-at="2021-10-24T16:37:25 IST" duration-ms="5246" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rupesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bhogle ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fchxh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[customer not added successfully]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: customer not added successfully
+at org.testng.Assert.fail(Assert.java:99)
+at com.sar.testcases.AddCustomerTest.addCustomer(AddCustomerTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Capturing Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg">Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg"><img src ="C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg" height= 400 width = 700></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sar.testcases.AddCustomerTest@77b21474]" started-at="2021-10-24T16:37:26 IST" name="addCustomer" data-provider="dp" finished-at="2021-10-24T16:37:26 IST" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vankatesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Iyer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sxakbv]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test case as the Runmode for data set is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test case as the Runmode for data set is NO
+at com.sar.testcases.AddCustomerTest.addCustomer(AddCustomerTest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sar.testcases.AddCustomerTest@77b21474]" started-at="2021-10-24T16:37:26 IST" name="addCustomer" data-provider="dp" finished-at="2021-10-24T16:37:31 IST" duration-ms="5235" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tripathi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[asdbb]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[customer not added successfully]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: customer not added successfully
+at org.testng.Assert.fail(Assert.java:99)
+at com.sar.testcases.AddCustomerTest.addCustomer(AddCustomerTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Capturing Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg">Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg"><img src ="C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\addCustomer.jpg" height= 400 width = 700></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+      </class> <!-- com.sar.testcases.AddCustomerTest -->
+    </test> <!-- Add Customer Test -->
+    <test started-at="2021-10-24T16:37:31 IST" name="Open Account Test" finished-at="2021-10-24T16:37:47 IST" duration-ms="15996">
+      <class name="com.sar.testcases.OpenAccountTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sar.testcases.OpenAccountTest@324dcd31]" started-at="2021-10-24T16:36:58 IST" name="setUp" finished-at="2021-10-24T16:37:01 IST" duration-ms="3058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openaccount(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sar.testcases.OpenAccountTest@324dcd31]" started-at="2021-10-24T16:37:31 IST" name="openaccount" data-provider="dp" finished-at="2021-10-24T16:37:37 IST" duration-ms="5685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hermoine Granger]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dollar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Account created successfully with account Number]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openaccount -->
+        <test-method signature="openaccount(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sar.testcases.OpenAccountTest@324dcd31]" started-at="2021-10-24T16:37:37 IST" name="openaccount" data-provider="dp" finished-at="2021-10-24T16:37:47 IST" duration-ms="10107" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-U4TG294C', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-U4TG294C', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+at com.sar.base.TestBase.selects(TestBase.java:119)
+at com.sar.testcases.OpenAccountTest.openaccount(OpenAccountTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Capturing Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\openaccount.jpg">Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href = "C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\openaccount.jpg"><img src ="C:\Users\sarve\eclipse-workspace\DataDriven\Screenshots\openaccount.jpg" height= 400 width = 700></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openaccount -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.sar.testcases.OpenAccountTest@324dcd31]" started-at="2021-10-24T16:37:47 IST" name="TearDown" finished-at="2021-10-24T16:37:48 IST" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.sar.testcases.OpenAccountTest -->
+    </test> <!-- Open Account Test -->
+  </suite> <!-- Data Driven Basics -->
+</testng-results>
