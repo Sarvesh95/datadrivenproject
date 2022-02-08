@@ -12,6 +12,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -36,7 +37,7 @@ public class TestBase {
 	public static Properties OR = new Properties();
 	public static FileInputStream file ;
 	public static Logger log = Logger.getLogger("devpinoyLogger");
-	public static ExcelReader excel = new ExcelReader("C:\\Users\\sarve\\eclipse-workspace\\DataDriven\\src\\test\\resources\\excel\\testdata.xlsx");
+	public static ExcelReader excel = new ExcelReader("C:\\Users\\sarve\\git\\datadrivenproject\\DataDriven\\src\\test\\resources\\excel\\testdata.xlsx");
 	public static WebDriverWait wait;
 	public ExtentReports rep = ExtentReportManager.getInstance();
 	public static ExtentTest test;
@@ -76,16 +77,19 @@ public class TestBase {
 			
 			if(Config.getProperty("browser").equals("chrome")){
 				
-				System.setProperty("webdriver.chrome.driver","C:\\Users\\sarve\\eclipse-workspace\\DataDriven\\src\\test\\resources\\executables\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver","C:\\Users\\sarve\\eclipse-workspace\\DataDrivenFramework\\src\\test\\resources\\executables\\chromedriver.exe");
 				driver = new ChromeDriver();
+				Actions act = new Actions(driver);
 			}
 			else if(Config.getProperty("browser").equals("firefox")) {
 				System.setProperty("webdriver.gecko.driver","C:\\Users\\sarve\\eclipse-workspace\\DataDriven\\src\\test\\resources\\executables\\geckodriver.exe");
 				driver = new FirefoxDriver();
+				Actions act = new Actions(driver);
 			}
 			else if(Config.getProperty("browser").equals("edge")){
 				System.setProperty("webdriver.edge.driver","C:\\Users\\sarve\\eclipse-workspace\\DataDriven\\src\\test\\resources\\executables\\msedgedriver.exe");
 				driver = new EdgeDriver();
+				Actions act = new Actions(driver);
 			}
 			
 			log.debug("Browser Launched !!!");
@@ -93,8 +97,11 @@ public class TestBase {
 			driver.get(Config.getProperty("testsiteUrl"));
 			log.debug("Navigated to"+Config.getProperty("testsiteUrl"));
 			driver.manage().window().maximize();
+			driver.manage().deleteAllCookies();
 			driver.manage().timeouts().implicitlyWait(Integer.parseInt(Config.getProperty("implicitly.wait")), TimeUnit.SECONDS);
 			wait = new WebDriverWait(driver,5);
+			
+			
 		}
 	}
 	

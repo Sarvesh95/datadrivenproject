@@ -4,9 +4,9 @@
            failures="4"
            errors="0"
            skipped="1"
-           time="21.169">
+           time="21.237">
   <properties />
-            <testcase name="addCustomer" time="5.246" classname="com.sar.testcases.AddCustomerTest">
+            <testcase name="addCustomer" time="5.225" classname="com.sar.testcases.AddCustomerTest">
                 <failure type="java.lang.AssertionError"
                   message="customer not added successfully"
               >
@@ -45,7 +45,7 @@
       </failure>
 
           </testcase>
-            <testcase name="addCustomer" time="5.235" classname="com.sar.testcases.AddCustomerTest">
+            <testcase name="addCustomer" time="5.548" classname="com.sar.testcases.AddCustomerTest">
                 <failure type="java.lang.AssertionError"
                   message="customer not added successfully"
               >
@@ -84,7 +84,7 @@
       </failure>
 
           </testcase>
-            <testcase name="addCustomer" time="5.421" classname="com.sar.testcases.AddCustomerTest">
+            <testcase name="addCustomer" time="5.233" classname="com.sar.testcases.AddCustomerTest">
                 <failure type="java.lang.AssertionError"
                   message="customer not added successfully"
               >
@@ -123,7 +123,7 @@
       </failure>
 
           </testcase>
-            <testcase name="addCustomer" time="5.266" classname="com.sar.testcases.AddCustomerTest">
+            <testcase name="addCustomer" time="5.230" classname="com.sar.testcases.AddCustomerTest">
                 <failure type="java.lang.AssertionError"
                   message="customer not added successfully"
               >

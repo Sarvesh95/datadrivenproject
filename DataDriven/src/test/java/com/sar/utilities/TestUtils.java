@@ -22,7 +22,7 @@ public class TestUtils extends TestBase  {
 		
 		File srcfile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		
-		File dstfile = new File("C:/Users/sarve/eclipse-workspace/DataDriven/Screenshots/"+Methodname+".jpg");
+		File dstfile = new File("C:/Users/sarve/git/datadrivenproject/DataDriven/Screenshots/"+Methodname+".jpg");
 		
 		try {
 			FileUtils.copyFile(srcfile, dstfile);

@@ -21,6 +21,7 @@ public class CustomListeners extends TestBase implements ITestListener {
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
 		test.log(Status.PASS, result.getName().toUpperCase()+"PASS");
+		rep.removeTest(test);
 		rep.flush();
 		
 	}
@@ -36,15 +37,16 @@ public class CustomListeners extends TestBase implements ITestListener {
 		TestUtils.screencapture(result.getMethod().getMethodName());
 		System.setProperty("org.uncommons.reportng.escape-output", "false");
 		Reporter.log("Capturing Screenshot");
-		Reporter.log("<a target=\"_blank\" href = \"C:\\Users\\sarve\\eclipse-workspace\\DataDriven\\Screenshots\\"+result.getMethod().getMethodName()+".jpg\">Screenshot</a>");
+		Reporter.log("<a target=\"_blank\" href = \"C:/Users/sarve/git/datadrivenproject/DataDriven/Screenshots/"+result.getMethod().getMethodName()+".jpg\">Screenshot</a>");
 		Reporter.log("<br>");
-		Reporter.log("<a target=\"_blank\" href = \"C:\\Users\\sarve\\eclipse-workspace\\DataDriven\\Screenshots\\"+result.getMethod().getMethodName()+".jpg\"><img src =\"C:\\Users\\sarve\\eclipse-workspace\\DataDriven\\Screenshots\\"+result.getMethod().getMethodName()+".jpg\" height= 400 width = 700></img></a>");
+		Reporter.log("<a target=\"_blank\" href = \"C:/Users/sarve/git/datadrivenproject/DataDriven/Screenshots/"+result.getMethod().getMethodName()+".jpg\"><img src =\"C:\\Users\\sarve\\eclipse-workspace\\DataDriven\\Screenshots\\"+result.getMethod().getMethodName()+".jpg\" height= 400 width = 700></img></a>");
 		rep.flush();
 	}
 
 	
 	public void onTestSkipped(ITestResult result) {
-		// TODO Auto-generated method stub
+	   test.log(Status.SKIP, result.getName().toUpperCase()+" skipped the test as the Runmode in NO");
+	   rep.flush();
 	
 	}
 

@@ -14,7 +14,7 @@ public class ExtentReportManager {
 		
 		if (extent == null) {
 			
-	   spark = new ExtentSparkReporter(System.getProperty("User.dir")+"\\test-output\\html\\Extent.html");	
+	   spark = new ExtentSparkReporter("C:\\Users\\sarve\\git\\datadrivenproject\\DataDriven\\test-output\\html\\Extent.html");	
 	   extent = new ExtentReports();
 	   
 	   extent.attachReporter(spark);

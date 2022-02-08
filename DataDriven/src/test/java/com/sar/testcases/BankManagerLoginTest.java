@@ -15,7 +15,7 @@ public class BankManagerLoginTest extends TestBase {
 	@Test
 	public void loginAsBankManager() {
 		
-		verifyEquals("abc", "xyz");
+		//verifyEquals("abc", "xyz");
 		log.debug("Inside the Login Test");
 		click("bmlbtn");
 		
