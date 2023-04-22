@@ -20,8 +20,7 @@ public class CustomListeners extends TestBase implements ITestListener {
 	
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
-		test.log(Status.PASS, result.getName().toUpperCase()+"PASS");
-		rep.removeTest(test);
+		test.log(Status.PASS, result.getName().toUpperCase()+" PASS");
 		rep.flush();
 		
 	}
@@ -30,7 +29,7 @@ public class CustomListeners extends TestBase implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
 	
-		test.log(Status.FAIL, result.getName().toUpperCase()+"failed with Exception : "+result.getThrowable());
+		test.log(Status.FAIL, result.getName().toUpperCase()+" failed with Exception : "+result.getThrowable());
 		test.addScreenCaptureFromPath(System.getProperty("user.dir")+"\\Screenshots\\"+result.getName()+".jpg");
 		
 		

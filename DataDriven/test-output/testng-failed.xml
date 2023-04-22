@@ -21,7 +21,7 @@
     <classes>
       <class name="com.sar.testcases.AddCustomerTest">
         <methods>
-          <include name="addCustomer" invocation-numbers="0 1 2 3 4"/>
+          <include name="addCustomer" invocation-numbers="1"/>
           <include name="TearDown"/>
           <include name="setUp"/>
         </methods>

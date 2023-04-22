@@ -30,15 +30,25 @@ public class AddCustomerTest extends TestBase {
 		type("postcode",Postcode);
 		Thread.sleep(1000);
 		click("submit");
-		Alert alert = wait.until(ExpectedConditions.alertIsPresent());
 		
-		//Assert.assertTrue(alert.getText().contains(AlertText));		
+		wait.until(ExpectedConditions.alertIsPresent());
+		
+		
+		try {
+		Alert alert = driver.switchTo().alert();
+		
+		Assert.assertTrue(alert.getText().contains(AlertText));	
 		
 		Thread.sleep(2000);
 
 		alert.accept();
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
 		
-		Assert.fail("customer not added successfully");
+		
+		
+		//Assert.fail("customer not added successfully");
 		
 					
 	}
